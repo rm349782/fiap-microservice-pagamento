@@ -6,7 +6,7 @@ export class AppService {
     return 'Hello World!';
   }
 
-  getQobana(): string {
+  getQodana(): string {
     return 'Hello Qodana!';
   }
 }
