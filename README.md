@@ -35,6 +35,10 @@ $ npm install
 ## Running the app
 
 ```bash
+# Docker Style Up
+$ docker build -t ms-payment .
+$ docker run -p 3000:3000 ms-payment
+
 # development
 $ npm run start
 
