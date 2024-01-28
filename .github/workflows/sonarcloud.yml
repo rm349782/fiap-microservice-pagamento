@@ -44,11 +44,11 @@
 #          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
 
-name: Build
+name: Sonar Cloud Automated Test and Coverage
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
